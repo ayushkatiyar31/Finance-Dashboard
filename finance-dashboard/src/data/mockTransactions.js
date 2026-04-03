@@ -1,0 +1,30 @@
+export const mockTransactions = [
+  { id: 'txn-001', date: '2026-04-02', amount: 4200, category: 'Salary', type: 'income', note: 'Monthly salary credit' },
+  { id: 'txn-002', date: '2026-04-01', amount: 340, category: 'Food', type: 'expense', note: 'Lunch with client' },
+  { id: 'txn-003', date: '2026-03-30', amount: 120, category: 'Travel', type: 'expense', note: 'Metro card recharge' },
+  { id: 'txn-004', date: '2026-03-29', amount: 980, category: 'Bills', type: 'expense', note: 'Electricity bill' },
+  { id: 'txn-005', date: '2026-03-27', amount: 260, category: 'Shopping', type: 'expense', note: 'Office supplies' },
+  { id: 'txn-006', date: '2026-03-25', amount: 900, category: 'Freelance', type: 'income', note: 'Design retainer' },
+  { id: 'txn-007', date: '2026-03-22', amount: 75, category: 'Health', type: 'expense', note: 'Pharmacy order' },
+  { id: 'txn-008', date: '2026-03-18', amount: 210, category: 'Entertainment', type: 'expense', note: 'Streaming annual plan' },
+  { id: 'txn-009', date: '2026-03-15', amount: 1500, category: 'Salary', type: 'income', note: 'Performance bonus' },
+  { id: 'txn-010', date: '2026-03-13', amount: 540, category: 'Bills', type: 'expense', note: 'Internet and phone' },
+  { id: 'txn-011', date: '2026-03-11', amount: 430, category: 'Food', type: 'expense', note: 'Groceries' },
+  { id: 'txn-012', date: '2026-03-08', amount: 125, category: 'Travel', type: 'expense', note: 'Ride share' },
+  { id: 'txn-013', date: '2026-03-06', amount: 220, category: 'Shopping', type: 'expense', note: 'Headphones case' },
+  { id: 'txn-014', date: '2026-03-04', amount: 340, category: 'Investments', type: 'income', note: 'Dividend payout' },
+  { id: 'txn-015', date: '2026-03-02', amount: 610, category: 'Bills', type: 'expense', note: 'Water and maintenance' },
+  { id: 'txn-016', date: '2026-02-26', amount: 180, category: 'Food', type: 'expense', note: 'Coffee beans and snacks' },
+];
+
+export const transactionCategories = [
+  'Food',
+  'Travel',
+  'Shopping',
+  'Salary',
+  'Bills',
+  'Freelance',
+  'Health',
+  'Entertainment',
+  'Investments',
+];
